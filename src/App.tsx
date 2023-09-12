@@ -43,7 +43,7 @@ function App(): JSX.Element {
         filterForRender = tasks.filter((tasks) => tasks.isDone === true);
     }
 
-    const changeTaskStatus = (taskId: string) => {
+    const changeTaskStatus = (taskId: string,isDone:boolean) => {
         const updeteTask: any = tasks.map(t => t.id === taskId ? {...t, isDone: !t.isDone} : t)
         setTask(updeteTask)
 

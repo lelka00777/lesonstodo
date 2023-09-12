@@ -4,7 +4,7 @@ import {FilterValueType} from "../App";
 type PropsType = {
     name: string;
     callback: () => void;
-    filter?: FilterValueType
+    filter?: string
 
 
 };
@@ -22,7 +22,7 @@ export const Button: FC<PropsType> = (props: PropsType) => {
     };
 
     return <button
-        className={props.filter === "Completed" ? 'btn-filter' : ''}
+        className={props.filter === props.name ? 'btn-filter' : ''} // сравниваем название кнопки и какая была нажата
 
 
         onClick={onclicHandler}>{props.name}</button>

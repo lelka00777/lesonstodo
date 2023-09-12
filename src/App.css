@@ -11,7 +11,7 @@
 }
 .task-done {
 
-opacity: 0,5;
+opacity: 0.5;
 text-decoration: line-through;
 color: rgb(0, 0, 0);
 

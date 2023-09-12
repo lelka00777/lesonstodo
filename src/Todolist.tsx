@@ -16,7 +16,7 @@ type PropsType = {
     removeTask: (taskId: string) => void;
     chengeTodoFilter: (filter: FilterValueType) => void;
     addTask: (value: string) => void;
-    changeTaskStatus: (taskId: string) => void;
+    changeTaskStatus: (taskId: string, isDone: boolean) => void;
     filter: FilterValueType
 };                                                                    // пропсы
 
@@ -35,10 +35,10 @@ export const Todolist: FC<PropsType> = ({                  //компонент�
 
     let onChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
 
-        if (!value.trim()){
-         setEmptyValueError(true)
-        }else{
-            emptyValueError&&setEmptyValueError(false)
+        if (!value.trim()) {
+            setEmptyValueError(true)
+        } else {
+            emptyValueError && setEmptyValueError(false)
 
         }
 
@@ -74,9 +74,13 @@ export const Todolist: FC<PropsType> = ({                  //компонент�
         removeTask(taskId);
     };
 
-    const onClickchangeTaskStatus = (taskId: string) => {
-        changeTaskStatus(taskId);
+    const onClickchangeTaskStatus = (taskId: string, e: ChangeEvent<HTMLInputElement>) => { //& мой вариант
+        changeTaskStatus(taskId, e.currentTarget.checked);
     };
+
+    // const onClickchangeTaskStatus = (taskId:string,newIsdone:boolean) => { // & вариант с урока игоря
+    //     changeTaskStatus(taskId,newIsdone);
+    // };
 
 
     const todolistItems = tasks.map((task: TaskType) => {
@@ -87,7 +91,8 @@ export const Todolist: FC<PropsType> = ({                  //компонент�
                 <input className={task.isDone === true ? 'check' : ''}
                        type="checkbox"
                        checked={task.isDone}
-                       onChange={() => onClickchangeTaskStatus(task.id)}
+                       onChange={(e) => onClickchangeTaskStatus(task.id, e)} // & мой вариант
+                    // onChange={(e) => onClickchangeTaskStatus(task.id,e.currentTarget.checked)} // & вариант с урока игоря
                 />
                 <span>{task.title}</span>
                 <Button name={"X"} callback={() => removeTaskHandler(task.id)}/>
@@ -125,10 +130,12 @@ export const Todolist: FC<PropsType> = ({                  //компонент�
 
 
                     name={"Active"}
+                    filter={filter}
                     callback={() => onClickFilterHandler("Active")}
                 />
                 <Button
                     name={"Completed"}
+                    filter={filter}
                     callback={() => onClickFilterHandler("Completed")}
                 />
 
