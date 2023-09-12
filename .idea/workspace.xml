@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/todo04" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5820314e-f9ba-4ae6-9a29-27f7d6f95aae" name="Default Changelist" comment="todo04." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2VDC6P5cLl3OKHTy8E0Dx7aA0B2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="ts.external.directory.path" value="C:\Users\games\Desktop\to04\lesonstodo\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5820314e-f9ba-4ae6-9a29-27f7d6f95aae" name="Default Changelist" comment="" />
+      <created>1694361087601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694361087601</updated>
+      <workItem from="1694361093439" duration="23414000" />
+    </task>
+    <task id="LOCAL-00001" summary="todo04.2">
+      <created>1694441912698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694441912699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/todo04" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="todo04.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo04.2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2623" height="352" key="GridCell.Tab.0.bottom" timestamp="1694441812794">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state width="2623" height="352" key="GridCell.Tab.0.bottom/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694441812794" />
+    <state width="2623" height="352" key="GridCell.Tab.0.center" timestamp="1694441812794">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state width="2623" height="352" key="GridCell.Tab.0.center/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694441812794" />
+    <state width="2623" height="352" key="GridCell.Tab.0.left" timestamp="1694441812794">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state width="2623" height="352" key="GridCell.Tab.0.left/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694441812794" />
+    <state width="2623" height="352" key="GridCell.Tab.0.right" timestamp="1694441812794">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state width="2623" height="352" key="GridCell.Tab.0.right/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694441812794" />
+    <state x="421" y="388" key="SettingsEditor" timestamp="1694362045801">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state x="421" y="388" key="SettingsEditor/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694362045801" />
+    <state x="926" y="472" key="Vcs.Push.Dialog.v2" timestamp="1694441976448">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state x="926" y="472" key="Vcs.Push.Dialog.v2/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694441976448" />
+    <state x="866" y="653" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1694520966040">
+      <screen x="0" y="40" width="3440" height="1400" />
+    </state>
+    <state x="866" y="653" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.3440.1400/-1366.243.1366.728@0.40.3440.1400" timestamp="1694520966040" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Todolist.tsx</url>
+          <line>63</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
