@@ -11,7 +11,7 @@
 }
 .task-done {
 
-opacity: 0,5;
+opacity: 0.5;
 text-decoration: line-through;
 color: rgb(0, 0, 0);
 
@@ -21,4 +21,13 @@ color: rgb(0, 0, 0);
 .btn-filter {
   background-color: rgb(238, 0, 255);
   color: rgb(255, 255, 255);
+  border:2px solid #00aeff;
+}
+.noFilter{
+  background-color: rgb(255, 250, 0);
+}
+.empty-value-error{
+  border:2px solid red;
+  outline: none;
+  color: red;
 }
