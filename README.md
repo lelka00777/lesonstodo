@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-# todo04
-=======
 # todolist 03
 <<<<<<< HEAD
 # todolist 04

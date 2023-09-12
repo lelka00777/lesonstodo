@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694361087601</updated>
-      <workItem from="1694361093439" duration="23947000" />
+      <workItem from="1694361093439" duration="24356000" />
     </task>
     <task id="LOCAL-00001" summary="todo04.2">
       <created>1694441912698</created>
@@ -159,7 +159,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Todolist.tsx</url>
-          <line>63</line>
+          <line>84</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
