@@ -49,9 +49,7 @@ function App(): JSX.Element {
 
 
     }
-    const changeTaskTitle = () => {
-
-    }
+ 
 
     return (
         <div className="App">
