@@ -1,3 +1,4 @@
+
 .App {
   padding: 30px;
   display: flex;
@@ -6,28 +7,20 @@
 .App > div {
   margin-right: 50px;
 }
-.task{
-  font-weight: bold;
-}
-.task-done {
 
-opacity: 0.5;
-text-decoration: line-through;
-color: rgb(0, 0, 0);
-
-
+.error {
+  border: red 1px solid;
 }
 
-.btn-filter {
-  background-color: rgb(238, 0, 255);
-  color: rgb(255, 255, 255);
-  border:2px solid #00aeff;
-}
-.noFilter{
-  background-color: rgb(255, 250, 0);
-}
-.empty-value-error{
-  border:2px solid red;
-  outline: none;
+.error-message {
   color: red;
 }
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
