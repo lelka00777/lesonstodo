@@ -1,10 +1,11 @@
 <<<<<<< HEAD
+
 # todo06
 # todo05
 # todo04
 =======
 # todolist 03
->>>>>>> todo04
+# todo04
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
